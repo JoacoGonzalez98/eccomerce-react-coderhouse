@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './Header';
+import NavBar from './components/NavBar.js'
 
 const App = () => {
     return (
-      <Header />
+      <NavBar />
     )
 
 }

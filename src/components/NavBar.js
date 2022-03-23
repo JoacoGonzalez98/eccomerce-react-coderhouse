@@ -1,8 +1,8 @@
-import React from "react"
-import './Header.css'
-import logo from './imgs/logotienda.jpg'
+import React from 'react';
+import logo from '../imgs/logotienda.jpg'
+import './NavBar.css'
 
-const Header = () =>{
+const NavBar = () =>{
     return (
         <div>
             <img src={logo} alt="logo"></img>
@@ -16,4 +16,4 @@ const Header = () =>{
     );
 };
 
-export default Header
+export default NavBar;
