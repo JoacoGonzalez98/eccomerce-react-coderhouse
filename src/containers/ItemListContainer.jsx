@@ -1,5 +1,5 @@
 import React from "react"
-const Ilc = ({greeting}) => {
+export const Ilc = ({greeting}) => {
     return <h1>{greeting}</h1>
 }
 
